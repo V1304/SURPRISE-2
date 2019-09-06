@@ -1,0 +1,82 @@
+/* Add Your Styles Here */
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+}
+p{
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    background: linear-gradient(45deg,red,purple);
+}
+
+/* ------------- Main Header ------------- */
+.main-header{
+    padding: 12px;
+    color: white;
+    text-align: right;
+}
+
+/* ------------- Main Navbar ------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 5px black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #81463c;
+    border-radius: 50px;
+    box-shadow: 0 0 3px white;
+}
+.main-nav a.active{
+    background-color: darkred;
+    border-radius: 50px;
+    box-shadow: 0 0 3px white;
+}
+
+
+
+/* ------------- Gallery Section  ------------- */
+.gallery-section{
+    text-align: center;
+    margin-top: 10px;
+}
+.gallery-figure{
+    width: inherit;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.gallery-figure:hover{
+    box-shadow: 0 0 10px purple;
+}
+.gallery-zoom{
+    width: 250px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.gallery-figure figcaption{
+    padding: 10px;
+    color:lightcoral;
+    font-size: 20px;
+}
+
